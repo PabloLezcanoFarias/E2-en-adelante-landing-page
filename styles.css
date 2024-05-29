@@ -29,7 +29,7 @@ p{
 
 header{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #000000;
   padding: 0px 50px;
   height: 80px;
@@ -43,7 +43,6 @@ nav{
 
 .lista-navbar{
   display: flex;
-  flex-direction: row;
   gap: 15px;
   justify-content: space-between;
   width: 40vw;
