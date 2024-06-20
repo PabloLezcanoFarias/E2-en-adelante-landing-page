@@ -1,1 +1,1 @@
-Este repositorio contiene una navbar simple desarrollada con html y css, la cuál se solicitó para la entrega 2 del módulo 1. La temática que elegí es una landing page de un restaurante de hamburguesas.
+Este repositorio contiene una landing page, la cual comencé a desarrollar a partir de la E2. A partir de la E3 en adelante utilizare esta misma landing page para ir aplicando los ejercicios solicitados de las entregas. Gracias por leer.
