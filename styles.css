@@ -20,7 +20,7 @@
   width: 6rem;
 }
 
-p{
+.container-logo p{
   color: #F2CE07;
   display: flex;
   align-items: center;
@@ -54,10 +54,97 @@ ul a{
 
 main{
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #F2CE07;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
 }
 
+.hero-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 50px 0px 100px;
+  margin-top: 150px;
+  /* margin-bottom: 150px; */
+  width: 500rem;
+}
+
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  /* margin: 0px 400px 0px 0px; */
+}
+
+.hero-slogan{
+  width: 25rem;
+}
+
+h1{
+  padding: 15px 15px;
+}
+
+.hero-info p{
+  padding: 20px 15px 30px 15px;
+  width: 25rem;
+}
+
+.hero-content-button{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 15px;
+}
+
+.hero-content-button button{
+  border-radius: 30px;
+  padding: 5px 20px;
+  font-weight: 700;
+}
+
+.button-pedir{
+  background-color: #000000;
+  color: #F2CE07;
+  border-style: none;
+}
+
+.button-detalles{
+  background-color: #F2CE07;
+  color: #000000;
+  border: 2px solid;
+  margin-left: 20px;
+}
+
+.hero-img{
+  width: 50rem;
+  height: 30rem;
+  /* padding-left: 90px; */
+  border-radius: 20px;
+
+
+}
+
+hr{
+  height: 4px;
+  background-color: #000000;
+  width: 50%;
+  border: none;
+  border-radius: 15px;
+  margin: 100px ;
+}
+
+.about{
+  height: 12rem;
+}
+
+.about-parrafo{
+  text-align: center;
+  width: 70rem;
+  height: 100%;
+  /* margin-top: 50px; */
+}
 
 
 
