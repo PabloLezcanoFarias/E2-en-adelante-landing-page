@@ -1,0 +1,1 @@
+Este repositorio contiene una navbar simple desarrollada con html y css, la cuál se solicitó para la entrega 2 del módulo 1. La temática que elegí es una landing page de un restaurante de hamburguesas.
