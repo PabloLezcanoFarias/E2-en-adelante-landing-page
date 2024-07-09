@@ -262,7 +262,7 @@ h1{
 }
 
 .contact__icon{
-  color:aqua;
+  color:#000000;
 }
 
 .contact__containerSocialNetworks{
@@ -272,6 +272,7 @@ h1{
 
 .contact__link{
   text-decoration: none;
+  color: #000000;
 }
 
 .contact__link:visited{
