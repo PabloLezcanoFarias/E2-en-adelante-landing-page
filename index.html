@@ -8,7 +8,7 @@
 </head>
 <body>
 
-  <header>
+  <header id="inicio">
     <div class="container-logo">
       <img class="logo" src="./images/logo.png" alt="logo">
       <p>Combo Junior Burger</p>
@@ -47,13 +47,191 @@
 
       </section>
 
-      <hr>
+      <hr class="main__line">
 
-      <section class="about">
+      <section id="acerca" class="about">
+        <h2 class="about__tittle">Acerca de Nosotros</h2>
         <p class="about-parrafo">
           Nuestra hamburguesería gourmet se dedica a ofrecer una experiencia culinaria excepcional, combinando ingredientes de alta calidad con recetas innovadoras. Cada visita a nuestro local promete una aventura de sabores únicos, donde cada hamburguesa es preparada con pasión y dedicación. Los clientes disfrutarán de un ambiente acogedor y sofisticado, ideal para compartir momentos especiales con amigos y familiares. En cada bocado, experimentarán la fusión perfecta de tradición y creatividad, reflejada en nuestra atención meticulosa a cada detalle. Ven y descubre por qué somos la elección preferida de los amantes de la buena comida.
         </p>
       </section>
+
+      <hr class="main__line">
+
+      <section id="compromisos" class="cards">
+        <h2 class="cards__tittle">Nuestros compromisos</h2>
+        <p class="cards__info">
+          Creemos que además de brindar productos de calidad gourmet también debemos brindar buenos valores.
+        </p>
+        <div class="cards__content">
+
+          <div class="cards__card cards__card--marginleft cards__card--smallcontent">
+            <i><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-salad" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M4 11h16a1 1 0 0 1 1 1v.5c0 1.5 -2.517 5.573 -4 6.5v1a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-1c-1.687 -1.054 -4 -5 -4 -6.5v-.5a1 1 0 0 1 1 -1z" />
+              <path d="M18.5 11c.351 -1.017 .426 -2.236 .5 -3.714v-1.286h-2.256c-2.83 0 -4.616 .804 -5.64 2.076" />
+              <path d="M5.255 11.008a12.204 12.204 0 0 1 -.255 -2.008v-1h1.755c.98 0 1.801 .124 2.479 .35" />
+              <path d="M8 8l1 -4l4 2.5" />
+              <path d="M13 11v-.5a2.5 2.5 0 1 0 -5 0v.5" />
+            </svg></i>
+            <h3 class="card__tittle">Calidad de los Ingredientes</h3>
+            <p class="card__info">Utilizamos los ingredientes más frescos y de alta calidad para asegurar un sabor excepcional en cada hamburguesa</p>
+          </div>
+
+
+          <div class="cards__card cards__card--smallcontent">
+            <i><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trees" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M16 5l3 3l-2 1l4 4l-3 1l4 4h-9" />
+              <path d="M15 21l0 -3" />
+              <path d="M8 13l-2 -2" />
+              <path d="M8 12l2 -2" />
+              <path d="M8 21v-13" />
+              <path d="M5.824 16a3 3 0 0 1 -2.743 -3.69a3 3 0 0 1 .304 -4.833a3 3 0 0 1 4.615 -3.707a3 3 0 0 1 4.614 3.707a3 3 0 0 1 .305 4.833a3 3 0 0 1 -2.919 3.695h-4z" />
+            </svg></i>
+            <h3 class="card__tittle" >Compromiso Ambiental</h3>
+            <p class="card__info">Adoptamos prácticas sostenibles y envases biodegradables para cuidar el medio ambiente y apoyar a proveedores locales</p>
+          </div>
+
+
+          <div class="cards__card cards__card--marginright cards__card--smallcontent">
+            <i><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chef-hat" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M12 3c1.918 0 3.52 1.35 3.91 3.151a4 4 0 0 1 2.09 7.723l0 7.126h-12v-7.126a4 4 0 1 1 2.092 -7.723a4 4 0 0 1 3.908 -3.151z" />
+            <path d="M6.161 17.009l11.839 -.009" />
+          </svg></i>
+            <h3 class="card__tittle">Experiencia Única</h3>
+            <p class="card__info">Ofrecemos una experiencia culinaria innovadora en un ambiente acogedor, haciendo de cada visita una celebración del buen gusto</p>
+          </div>
+
+        </div>
+
+      </section>
+
+      <hr class="main__line main__line--widght">
+
+      <!-- Sección Contacto -->
+      <section id="contacto" class="contact">
+
+        <h2 class="contact__tittle">Contacto</h2>
+        <div class="contact__container">
+        <div class="contact__content">
+
+          <div class="contact__card">
+
+            <div class="contact__containerTittleCards">
+              <h3 class="contact__tittleCards" >Quilmes Oeste</h3>
+              <h3 class="contact__tittleCards" >Bernal</h3>
+            </div>
+            <div class="contact__contentIcons">
+
+              <div class="contact__containerCards">
+
+                <div class="contact__info">
+                  <i><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="30" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                  <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                  </svg></i>
+                  <p>Calle Falsa 123</p>
+                </div>
+
+
+                <div class="contact__info">
+                  <i><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="30" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                  <path d="M3 7l9 6l9 -6" />
+                  </svg></i>
+                  <p>mail@mail.com</p>
+                </div>
+
+
+                <div class="contact__info">
+                  <i><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="30" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                  </svg></i>
+                  <p>011 12345678</p>
+                </div>
+                
+              </div>
+
+              <div class="contact__containerCards">
+                
+                <div class="contact__info">
+                  <i><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="30" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                  <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                  </svg></i>
+                  <p>Calle Falsa 123</p>
+                </div>
+
+
+                <div class="contact__info">
+                  <i><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="30" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                  <path d="M3 7l9 6l9 -6" />
+                  </svg></i>
+                  <p>mail@mail.com</p>
+                </div>
+
+
+                <div class="contact__info">
+                  <i><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="30" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                  </svg></i>
+                  <p>011 12345678</p>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="div contact__containerMap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26226.506518377468!2d-58.32080557386757!3d-34.74769949595785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32dcffd6f483d%3A0x773aa43b7ef2e4ba!2sQuilmes%20Oeste%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1720373478686!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>        
+        </div>
+
+        <div class="contact__containerSocialNetworks">
+          <a href="#" class="contact__link"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter-filled" width="30" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M14.058 3.41c-1.807 .767 -2.995 2.453 -3.056 4.38l-.002 .182l-.243 -.023c-2.392 -.269 -4.498 -1.512 -5.944 -3.531a1 1 0 0 0 -1.685 .092l-.097 .186l-.049 .099c-.719 1.485 -1.19 3.29 -1.017 5.203l.03 .273c.283 2.263 1.5 4.215 3.779 5.679l.173 .107l-.081 .043c-1.315 .663 -2.518 .952 -3.827 .9c-1.056 -.04 -1.446 1.372 -.518 1.878c3.598 1.961 7.461 2.566 10.792 1.6c4.06 -1.18 7.152 -4.223 8.335 -8.433l.127 -.495c.238 -.993 .372 -2.006 .401 -3.024l.003 -.332l.393 -.779l.44 -.862l.214 -.434l.118 -.247c.265 -.565 .456 -1.033 .574 -1.43l.014 -.056l.008 -.018c.22 -.593 -.166 -1.358 -.941 -1.358l-.122 .007a.997 .997 0 0 0 -.231 .057l-.086 .038a7.46 7.46 0 0 1 -.88 .36l-.356 .115l-.271 .08l-.772 .214c-1.336 -1.118 -3.144 -1.254 -5.012 -.554l-.211 .084z" stroke-width="0" fill="currentColor" />
+          </svg></a>
+
+        <a href="#" class="contact__link contact__link--paddingLeft"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="30" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+        <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+        <path d="M16.5 7.5l0 .01" />
+        </svg></a>
+
+        <a href="#" class="contact__link"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook-filled" width="30" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z" stroke-width="0" fill="currentColor" />
+        </svg></a>
+      </section>
+
+      <!-- Sección Footer -->
+
+      <footer class="footer">
+        <div class="footer__containerLogo">
+          <img class="logo" src="./images/logo.png" alt="footer__logo">
+        </div>
+
+        <div class="footer__containerLinks">
+          <a href="#inicio" class="footer__link">Inicio</a>
+          <a href="#acerca" class="footer__link">Acerca de Nosotros</a>
+          <a href="#compromisos" class="footer__link">Nuestros Compromisos</a>
+          <a href="#contacto" class="footer__link">Contacto</a>
+        </div>
+      </footer>
+
     </main>
     
 </body>
